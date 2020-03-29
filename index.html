@@ -20,11 +20,7 @@
       data-list=".list">
     </div>
 
-    <ul class="list">
-      <li>item 1</li>
-      <li>...</li>
-      <li><a href="#">item 2</a></li>
-    </ul>
+    
   </header>
   <body>
     <div class="container">
@@ -124,8 +120,10 @@
     <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
     <script type="text/javascript" src="jquery.hideseek.min.js"></script>
     <script>
-      $(document).ready(function() {
-       $('#search-1').hideseek();
+      
+       $('#search-1').hideseek({
+       highlight: true,
+       attribute: 'data title'
      });
      </script>
     <script src="js/scripts.js"></script>
