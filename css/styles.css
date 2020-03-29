@@ -11,21 +11,12 @@
 
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-
-
-
-}
-
-
 
 //flexbox
 
 @media (min-width: 768px) {
-    max-width: 20%;
 
+    .container {
+        width: 100%;
+    }
 }

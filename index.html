@@ -14,15 +14,17 @@
 
     <title>Interactive Photo Gallery</title>
   </head>
-  <header>
-    
-     <input id="search" name="search" placeholder="Search..." type="text"
-      data-list=".list">
-    </div>
 
-    
-  </header>
   <body>
+    <header>
+      <input
+        id="search"
+        name="search"
+        placeholder="Search..."
+        type="text"
+        data-list=".list"
+      />
+    </header>
     <div class="container">
       <a
         href="photos/01.jpg"
@@ -114,18 +116,15 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
-    
-    
 
     <script type="text/javascript" src="jquery-2.0.2.min.js"></script>
     <script type="text/javascript" src="jquery.hideseek.min.js"></script>
     <script>
-      
-       $('#search-1').hideseek({
-       highlight: true,
-       attribute: 'data title'
-     });
-     </script>
+      $("#search-1").hideseek({
+        highlight: true,
+        attribute: "data title"
+      });
+    </script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
