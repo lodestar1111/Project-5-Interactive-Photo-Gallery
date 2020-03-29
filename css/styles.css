@@ -1,22 +1,22 @@
 * {
     box-sizing: border-box;
-
-
-}
-
-.search {
-    margin-bottom: 25px;
-    padding-top: 25px;
-    text-align: center;
-
 }
 
 
-//flexbox
+img {
+    margin: 20px;
+    box-shadow: 10px 10px 10px black;
+}
 
 @media (min-width: 768px) {
 
     .container {
-        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+
     }
 }
