@@ -7,6 +7,7 @@ input {
     margin: auto;
     display: block;
 
+
 }
 
 input[type=text] {
@@ -19,6 +20,7 @@ input[type=text] {
 input[type=text]:focus {
     width: 50%;
 }
+
 
 img {
     margin: 20px;
@@ -44,12 +46,31 @@ img {
 
 
 @media (min-width: 768px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 
+body {
+    background-color: aliceblue;
+    max-width: 100%;
+    margin: 20px;
+}
+}
 
-    body {
-        background-color: aliceblue;
-        max-width: 100%;
-        margin: 20px;
+@media (min-width: 1024px) {
+    .container-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
     }
+
+    img {
+        flex-wrap: wrap;
+
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
 }
