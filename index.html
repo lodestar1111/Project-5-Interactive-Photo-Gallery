@@ -120,6 +120,11 @@
     <script type="text/javascript" src="jquery.hideseek.min.js"></script>
     <script src="https://rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
     <script>
+      lightbox.option({
+        fitImagesInViewport: true,
+        wrapAround: true
+      });
+
       $(document).ready(function() {
         $("#search").hideseek({
           nodata: "No results found",
